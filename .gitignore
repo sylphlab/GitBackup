@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Backup directory
+backup/
+
+# Environment variables
+.env
+
+# TypeScript build info
+*.tsbuildinfo
+
+# OS generated files
+.DS_Store
+Thumbs.db

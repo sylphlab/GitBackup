@@ -1,0 +1,11 @@
+<!-- Version: 1.0 | Last Updated: 2025-07-08 -->
+# Cline Rules
+
+- **Project Type:** CLI Application
+- **Primary Language:** TypeScript (ESM)
+- **Key Libraries:** @octokit/rest, simple-git
+- **User Interaction:** Cantonese
+- **Technical Content:** English
+- **Code Style:** Follow relevant Playbook TypeScript guidelines (to be fetched).
+- **Commit Strategy:** Commit logical units of work.
+- **Memory Bank Updates:** Update frequently after significant steps.
