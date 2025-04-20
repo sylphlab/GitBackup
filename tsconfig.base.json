@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    /* Base options for all packages */
+    "target": "ES2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "sourceMap": true,
+    "declaration": true, // Generate .d.ts files
+    "declarationMap": true, // Generate sourcemaps for .d.ts files
+    "composite": true, // Enable project references for monorepo builds
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true, // Often useful in Node.js projects
+    "resolveJsonModule": true // Allow importing JSON files
+  },
+  "exclude": ["node_modules", "dist", "backup", "coverage"] // Exclude common directories from base
+}

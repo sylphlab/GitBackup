@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // src/main.ts
 import dotenv from 'dotenv';
 import inquirer from 'inquirer';

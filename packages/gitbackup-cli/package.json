@@ -1,0 +1,30 @@
+{
+  "name": "gitbackup-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to backup GitHub repositories.",
+  "main": "dist/main.js",
+  "type": "module",
+  "bin": {
+    "gitbackup": "./dist/main.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/main.js"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "backup"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^21.1.1",
+    "dotenv": "^16.4.7",
+    "inquirer": "^9.3.5",
+    "simple-git": "^3.27.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

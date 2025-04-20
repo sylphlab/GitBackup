@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json", // Extend from the root base config
+  "compilerOptions": {
+    // Package-specific options can override base options if needed
+    "outDir": "./dist",              // Output directory relative to this package
+    "rootDir": "./src"               // Root directory relative to this package
+    // module, target, strict etc. are inherited from base
+  },
+  "include": ["src/**/*"],           // Include files relative to this package
+  "exclude": ["node_modules", "dist"] // Exclude relative to this package (backup is outside)
+}

@@ -1,0 +1,26 @@
+# Ignore Git directory
+.git
+# Ignore local dependencies (they will be installed inside the container)
+node_modules
+# Ignore build output if using multi-stage build (copied from builder stage)
+dist
+# Ignore backup directory
+backup
+# Ignore coverage output
+coverage
+# Ignore environment files (should be passed at runtime)
+.env
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+# Ignore Dockerfile itself
+Dockerfile
+# Ignore dockerignore file itself
+.dockerignore
+# Ignore Husky directory
+.husky
+# Ignore lint/format cache
+.eslintcache
+.prettiercache
+# Ignore test files if not needed in final image
+src/**/*.test.ts
